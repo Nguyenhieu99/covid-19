@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  covid-19
+//  appCovid-19
 //
-//  Created by NGUYEN MANH HIEU on 17/06/2021.
+//  Created by NGUYEN MANH HIEU on 18/06/2021.
 //
 
 import UIKit
