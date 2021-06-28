@@ -1,15 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Image.png",
+      "filename" : "ic_round-home.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "bt-home-x2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "bt-home-x3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

@@ -52,8 +52,7 @@
                                                     </button>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="36" id="7EF-aj-Trj"/>
-                                                    <constraint firstAttribute="width" constant="374" id="ULI-dm-h2c"/>
+                                                    <constraint firstAttribute="height" constant="36" id="0Pl-Hv-rXB"/>
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="148" translatesAutoresizingMaskIntoConstraints="NO" id="Gde-iW-dmX">
@@ -80,12 +79,11 @@
                                                     </button>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="40" id="0eo-vr-cpx"/>
-                                                    <constraint firstAttribute="width" constant="374" id="vxn-a2-Cgc"/>
+                                                    <constraint firstAttribute="height" constant="40" id="YHf-jr-cue"/>
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="iap-fG-T70">
-                                                <rect key="frame" x="20" y="172" width="310" height="76"/>
+                                                <rect key="frame" x="20" y="172" width="374" height="76"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you feeling sick?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0HA-r8-kR6">
                                                         <rect key="frame" x="0.0" y="0.0" width="193.33333333333334" height="25"/>
@@ -97,7 +95,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you feel sick with any of  covid-19 symptoms please call or SMS us immediately for help." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="okk-Ye-DPF">
-                                                        <rect key="frame" x="0.0" y="37" width="310" height="39"/>
+                                                        <rect key="frame" x="0.0" y="37" width="374" height="39"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="39" id="9N0-4G-xVl"/>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="310" id="DKy-OC-8Ok"/>
@@ -108,8 +106,7 @@
                                                     </label>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="76" id="Hs9-w0-LOR"/>
-                                                    <constraint firstAttribute="width" constant="310" id="erT-2c-gWR"/>
+                                                    <constraint firstAttribute="height" constant="76" id="I9M-83-guC"/>
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="1Uv-gX-X2Y">
@@ -139,8 +136,7 @@
                                                     </button>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="48" id="t5c-gz-piZ"/>
-                                                    <constraint firstAttribute="width" constant="374" id="vi3-gc-AU5"/>
+                                                    <constraint firstAttribute="height" constant="48" id="zvi-ah-Ry0"/>
                                                 </constraints>
                                             </stackView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prevention" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xW-Wk-hcg">
@@ -176,7 +172,6 @@
                                                             </label>
                                                         </subviews>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="90" id="IT7-Og-WvJ"/>
                                                             <constraint firstAttribute="height" constant="138" id="JFq-5j-Dgy"/>
                                                         </constraints>
                                                     </stackView>
@@ -201,7 +196,6 @@
                                                             </label>
                                                         </subviews>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="90" id="BoI-9L-HeB"/>
                                                             <constraint firstAttribute="height" constant="138" id="gIw-qv-16A"/>
                                                         </constraints>
                                                     </stackView>
@@ -226,13 +220,11 @@
                                                             </label>
                                                         </subviews>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="90" id="4yo-D0-mgl"/>
                                                             <constraint firstAttribute="height" constant="138" id="wLd-4N-jly"/>
                                                         </constraints>
                                                     </stackView>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="374" id="PnI-N6-haR"/>
                                                     <constraint firstAttribute="height" constant="138" id="XHa-ul-0kw"/>
                                                 </constraints>
                                             </stackView>
@@ -310,38 +302,39 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="RV5-qe-VNC" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" id="1k9-Yf-g3a"/>
                                             <constraint firstItem="zUd-VB-uj1" firstAttribute="top" secondItem="Elv-4u-tdc" secondAttribute="bottom" constant="58" id="4G2-r0-10P"/>
+                                            <constraint firstItem="iap-fG-T70" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" id="5Cq-zF-26N"/>
+                                            <constraint firstAttribute="trailing" secondItem="iap-fG-T70" secondAttribute="trailing" constant="20" id="5sH-I8-C0G"/>
                                             <constraint firstItem="Elv-4u-tdc" firstAttribute="top" secondItem="7xW-Wk-hcg" secondAttribute="bottom" constant="24" id="5z4-Wg-Jl4"/>
                                             <constraint firstAttribute="trailing" secondItem="asb-Ax-Vjp" secondAttribute="trailing" constant="16" id="68Z-hf-5he"/>
                                             <constraint firstItem="7xW-Wk-hcg" firstAttribute="top" secondItem="JVg-NL-Xwe" secondAttribute="bottom" constant="32" id="6si-q0-eXU"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="7xW-Wk-hcg" secondAttribute="trailing" constant="20" symbolic="YES" id="7id-TL-Jvi"/>
-                                            <constraint firstItem="RV5-qe-VNC" firstAttribute="top" secondItem="a1O-Jt-oPp" secondAttribute="top" constant="8" id="7te-Fy-2zE"/>
+                                            <constraint firstItem="Gde-iW-dmX" firstAttribute="top" secondItem="RV5-qe-VNC" secondAttribute="bottom" constant="44" id="7wW-ei-fNJ"/>
                                             <constraint firstAttribute="height" constant="852" id="ADW-yq-d8C"/>
-                                            <constraint firstItem="iap-fG-T70" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" id="Fl6-cF-3XG"/>
-                                            <constraint firstItem="Gde-iW-dmX" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" id="HRp-lA-5C5"/>
+                                            <constraint firstItem="iap-fG-T70" firstAttribute="top" secondItem="Gde-iW-dmX" secondAttribute="bottom" constant="44" id="Cer-yh-hc9"/>
+                                            <constraint firstItem="1Uv-gX-X2Y" firstAttribute="top" secondItem="iap-fG-T70" secondAttribute="bottom" constant="16" id="Egw-Ll-W7n"/>
                                             <constraint firstItem="7xW-Wk-hcg" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" id="Lyl-xU-j8y"/>
                                             <constraint firstItem="JVg-NL-Xwe" firstAttribute="top" secondItem="a1O-Jt-oPp" secondAttribute="top" id="MUb-XD-YEc"/>
-                                            <constraint firstItem="1Uv-gX-X2Y" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" id="N1c-fT-0iu"/>
+                                            <constraint firstItem="1Uv-gX-X2Y" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" id="MWj-ci-MyX"/>
                                             <constraint firstAttribute="trailing" secondItem="Elv-4u-tdc" secondAttribute="trailing" constant="20" id="QS8-Ez-kit"/>
                                             <constraint firstAttribute="trailing" secondItem="zUd-VB-uj1" secondAttribute="trailing" constant="77.333333333333371" id="W90-Mb-MxT"/>
-                                            <constraint firstItem="Gde-iW-dmX" firstAttribute="top" secondItem="RV5-qe-VNC" secondAttribute="bottom" constant="44" id="Y0i-gM-YBl"/>
                                             <constraint firstItem="UPT-Pe-bIE" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" id="ZKY-co-mD1"/>
                                             <constraint firstItem="cgv-h2-d4i" firstAttribute="top" secondItem="zUd-VB-uj1" secondAttribute="bottom" constant="8" id="a4i-qm-Jj8"/>
                                             <constraint firstItem="JVg-NL-Xwe" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" id="b5K-Xk-8qB"/>
                                             <constraint firstItem="cgv-h2-d4i" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="186" id="dTn-XC-Ds0"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cgv-h2-d4i" secondAttribute="trailing" symbolic="YES" id="dXn-RR-hSQ"/>
-                                            <constraint firstItem="1Uv-gX-X2Y" firstAttribute="top" secondItem="iap-fG-T70" secondAttribute="bottom" constant="16" id="esw-Kn-GrI"/>
-                                            <constraint firstAttribute="trailing" secondItem="1Uv-gX-X2Y" secondAttribute="trailing" constant="20" id="f84-67-fMh"/>
+                                            <constraint firstItem="RV5-qe-VNC" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" id="duy-p5-y11"/>
                                             <constraint firstItem="asb-Ax-Vjp" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="15" id="gGe-EH-v5o"/>
-                                            <constraint firstAttribute="trailing" secondItem="Gde-iW-dmX" secondAttribute="trailing" constant="20" id="jx6-vx-lEe"/>
-                                            <constraint firstItem="iap-fG-T70" firstAttribute="top" secondItem="Gde-iW-dmX" secondAttribute="bottom" constant="44" id="kL5-pt-aUU"/>
+                                            <constraint firstAttribute="trailing" secondItem="RV5-qe-VNC" secondAttribute="trailing" constant="20" id="hPT-Z5-qT9"/>
                                             <constraint firstItem="zUd-VB-uj1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" symbolic="YES" id="lYB-QU-YTr"/>
+                                            <constraint firstItem="Gde-iW-dmX" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" id="nNw-pK-keM"/>
+                                            <constraint firstAttribute="trailing" secondItem="1Uv-gX-X2Y" secondAttribute="trailing" constant="20" id="qxR-6P-gbY"/>
                                             <constraint firstAttribute="trailing" secondItem="JVg-NL-Xwe" secondAttribute="trailing" id="qyr-Ow-tps"/>
                                             <constraint firstItem="Elv-4u-tdc" firstAttribute="leading" secondItem="a1O-Jt-oPp" secondAttribute="leading" constant="20" id="sGy-Zi-17H"/>
-                                            <constraint firstAttribute="trailing" secondItem="RV5-qe-VNC" secondAttribute="trailing" constant="20" id="t10-OW-gkc"/>
+                                            <constraint firstItem="RV5-qe-VNC" firstAttribute="top" secondItem="a1O-Jt-oPp" secondAttribute="top" constant="8" id="t7f-Av-DUL"/>
                                             <constraint firstItem="UPT-Pe-bIE" firstAttribute="top" secondItem="Elv-4u-tdc" secondAttribute="bottom" constant="29" id="tmH-BK-h5F"/>
                                             <constraint firstItem="asb-Ax-Vjp" firstAttribute="top" secondItem="UPT-Pe-bIE" secondAttribute="bottom" constant="35" id="uqJ-zk-Y4d"/>
+                                            <constraint firstAttribute="trailing" secondItem="Gde-iW-dmX" secondAttribute="trailing" constant="20" id="xRR-yd-usx"/>
                                             <constraint firstAttribute="trailing" secondItem="UPT-Pe-bIE" secondAttribute="trailing" constant="20" id="zZj-oS-YgU"/>
                                         </constraints>
                                     </view>
@@ -372,20 +365,20 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Img1-pvt" width="180" height="180"/>
-        <image name="Img2-pvt" width="180" height="180"/>
-        <image name="bt-SMS" width="310" height="96"/>
-        <image name="bt-bd" width="48" height="48"/>
-        <image name="bt-call" width="310" height="96"/>
-        <image name="bt-home" width="48" height="48"/>
+        <image name="Img1-pvt" width="90" height="90"/>
+        <image name="Img2-pvt" width="90" height="90"/>
+        <image name="bt-SMS" width="155" height="48"/>
+        <image name="bt-bd" width="24" height="24"/>
+        <image name="bt-call" width="155" height="48"/>
+        <image name="bt-home" width="24" height="24"/>
         <image name="bt-home-bg" width="112" height="72"/>
-        <image name="bt-lg" width="232" height="80"/>
-        <image name="bt-news" width="48" height="48"/>
-        <image name="bt-opt" width="48" height="36"/>
-        <image name="bt-other" width="48" height="48"/>
-        <image name="bt-ring" width="48" height="48"/>
-        <image name="img3-pvt" width="180" height="180"/>
-        <image name="view-own" width="654" height="232"/>
+        <image name="bt-lg" width="116" height="40"/>
+        <image name="bt-news" width="24" height="24"/>
+        <image name="bt-opt" width="24" height="18"/>
+        <image name="bt-other" width="24" height="24"/>
+        <image name="bt-ring" width="24" height="24"/>
+        <image name="img3-pvt" width="90" height="90"/>
+        <image name="view-own" width="327" height="116"/>
         <image name="view1" width="750" height="716"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

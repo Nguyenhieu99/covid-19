@@ -6,10 +6,12 @@
       "scale" : "1x"
     },
     {
+      "filename" : "bt-callx2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "bt-callx3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

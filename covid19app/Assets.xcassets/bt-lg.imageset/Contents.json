@@ -6,10 +6,12 @@
       "scale" : "1x"
     },
     {
+      "filename" : "bt-language-x2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "bt-language-x3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
